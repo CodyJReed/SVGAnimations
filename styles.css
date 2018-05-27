@@ -136,12 +136,14 @@ li:hover path, .color-change:hover, a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-left: 15px;
 }
 
 .corgi-coats div {
   display: flex;
   flex-direction: column;
-  padding-right: 20px;
+  padding-right: 10px;
+  padding-left: 15px;
 }
 
 span {
@@ -161,7 +163,7 @@ span {
 
 .red {
   fill: currentColor;
-  color: #9B6541;
+  color: #63391D;
 }
 
 .stone {
