@@ -82,3 +82,89 @@ li:hover path, .color-change:hover, a:hover {
 .color-change {
   transition: transform .2s ease-out;
 }
+
+/* Logo Style */
+
+#Layer_1 {
+  width: 140px;
+  height: 120px;
+}
+
+.st1,
+.st2 {
+  transition: transform 1s;
+  transform-origin: center;
+}
+
+#Layer_1:hover .st1 {
+  transform: rotate(360deg)scale(.9);
+}
+
+#Layer_1:hover .st2 {
+  transform: rotate(-360deg)scale(.9);
+}
+
+.st1 {
+  display: none;
+}
+
+.tablet-heading {
+  margin: 50px 60px 0px 60px;
+  color: #eaaa7f;
+  text-shadow: 0 0 .1em, 0 0 .3em;
+  background: #000;
+  border-radius: 15px;
+}
+
+/* Logo text/H1 heading @media swap  */
+
+@media(min-width: 425px) {
+  .tablet-heading {
+    display:none;
+  }
+  .st1, .st1:hover {
+    display: block;
+  }
+  #Layer_1 {
+    margin-top: 50px;
+  }
+}
+
+/* Corgi Coats and Layout */
+
+.corgi-coats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.corgi-coats div {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+span {
+  padding-right: 40px;
+  color: #da8058;
+}
+
+.sable {
+  fill: currentColor;
+  color: #BB8058;
+}
+
+.fawn {
+  fill: currentColor;
+  color: #C2977A;
+}
+
+.red {
+  fill: currentColor;
+  color: #9B6541;
+}
+
+.stone {
+  fill: currentColor;
+  color: #52595f;
+}
