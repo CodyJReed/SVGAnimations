@@ -6,6 +6,8 @@ body {
   font-weight: 300;
   color: #111;
   background: #edeff0;
+  /* Add tiled background.svg */
+  background-image: url('svgs/background.svg');
 }
 
 #container {
@@ -26,10 +28,6 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
-}
-
-a:hover {
-  color: #111;
 }
 
 header {
@@ -59,4 +57,28 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+/* Nav Style */
+
+ul {
+  padding-top: 3%;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 5%;
+}
+/* Change Nav Text and Icon color upon :hover; while also scaling Nav Icon(s) */
+
+li:hover path, .color-change:hover, a:hover {
+  fill: firebrick;
+  color: firebrick;
+  transform-origin: 27px 24px;
+  transform: scale(.9);
+}
+
+.color-change {
+  transition: transform .2s ease-out;
 }
