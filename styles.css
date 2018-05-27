@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: #edeff0 url('svgs/background.svg');
+  background: #edeff0;
 }
 
 #container {
@@ -13,27 +13,6 @@ body {
   background: #fff;
   margin: 0 auto;
   height: 100%; /* new line */
-}
-
-.menu {
-padding-top: 2%;
-padding-left: 3%;
-transform-origin: 24px 28px;
-
-}
-
-.menu,
-.menu-icon {
-  transition: transform .4s ease-in-out;
-}
-
-.menu:hover,
-.menu-icon:hover,
-.st0:hover  {
-  fill: red;
-  color: red;
-  transform: rotate(5deg);
-
 }
 
 p {
@@ -80,17 +59,4 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
-}
-/* Keyframes */
-
-@@keyframes shake {
-  0%{
-    transform: rotate(-15deg);
-  }
-  50%{
-    transform: rotate(15deg);
-  }
-  100% {
-    transform: rotate(0);
-  }
 }
