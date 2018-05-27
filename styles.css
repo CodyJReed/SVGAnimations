@@ -73,8 +73,8 @@ li {
 /* Change Nav Text and Icon color upon :hover; while also scaling Nav Icon(s) */
 
 li:hover path, .color-change:hover, a:hover {
-  fill: firebrick;
-  color: firebrick;
+  fill: slateblue;
+  color: slateblue;
   transform-origin: 27px 24px;
   transform: scale(.9);
 }
@@ -91,7 +91,8 @@ li:hover path, .color-change:hover, a:hover {
 }
 
 .st1,
-.st2 {
+.st2
+ {
   transition: transform 1s;
   transform-origin: center;
 }
@@ -122,7 +123,7 @@ li:hover path, .color-change:hover, a:hover {
   .tablet-heading {
     display:none;
   }
-  .st1, .st1:hover {
+  .st1 {
     display: block;
   }
   #Layer_1 {
